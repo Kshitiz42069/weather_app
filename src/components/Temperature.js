@@ -15,9 +15,9 @@ function Temperature({weather:{
         {/* Temperature and details */}
 
         <div className='flex flex-row items-center justify-between text-white py-3'>
-            <img src={iconUrlFromCode(icon)} alt="" className='w-20 ml-[8rem]'/>
-            <p className='text-5xl'>{`${temp.toFixed()}°`}</p>
-            <div className='flex flex-col space-y-2'>
+            <img src={iconUrlFromCode(icon)} alt="" className='w-20 lg:ml-[8rem] sm:ml-[2rem] sm:mr-6'/>
+            <p className='text-5xl sm:mr-1'>{`${temp.toFixed()}°`}</p>
+            <div className='flex flex-col space-y-2 sm:ml-5'>
                 <div className='flex font-light text-sm items-center justify-center'>
                     <UilTemperature size={18} className='mr-1'/>
                     Feels Like:

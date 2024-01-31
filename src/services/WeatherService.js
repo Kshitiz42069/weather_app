@@ -1,6 +1,6 @@
 import { DateTime } from "luxon";
 
-const API_KEY = "253682c0bd759acfb4255d4aa08c3dd7";
+const API_KEY = "";
 
 const BASE_URL = "https://api.openweathermap.org/data/2.5";
 

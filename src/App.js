@@ -46,7 +46,7 @@ function App() {
   },[query,units]);
 
   return (
-    <div className={`mx-auto max-w-[1200px] mt-4 py-5 px-10 bg-gradient-to-br h-fit shadow-xl shadow-gray-400 ${formatBG()}`}>
+    <div className={`max-w-full py-5 lg:px-32 sm:px-[2.5rem] bg-gradient-to-br  h-full shadow-xl shadow-gray-400 ${formatBG()}`}>
       <Header setQuery = {setQuery}/>
       <Input setQuery={setQuery} units={units} setUnits={setUnits}/>
 
